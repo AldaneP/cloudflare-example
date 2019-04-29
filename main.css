@@ -175,7 +175,7 @@ button:hover {
   font-size: 15px;
 }
 
-.words{
+#words{
   color: white;
   font-family: sans-serif;
   margin-top: 5px;
@@ -189,6 +189,7 @@ button:hover {
   grid-gap: 5px;
   color: white;
   font-weight: 300;
+  grid-template: 250px 250px / 250px  250px;
 }
 
 p{
@@ -198,7 +199,7 @@ p{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   }
-  
+
 ul li a {
   display: inline;
   padding: 0 1.5%;
