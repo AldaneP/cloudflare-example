@@ -189,7 +189,7 @@ button:hover {
   grid-gap: 5px;
   color: white;
   font-weight: 300;
-  grid-template: 250px 250px / 250px  250px;
+  grid-template: 200px 200px / 200px  200px;
 }
 
 p{
