@@ -162,7 +162,7 @@ button:hover {
 
 .backedUp-list {
   padding: 20px;
-  background-color: #8176b5;
+  background-color: linear-gradient (to left,#76c4e2,#8176b5); 
   text-align: center;
 }
 
