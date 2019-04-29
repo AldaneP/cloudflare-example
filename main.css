@@ -216,6 +216,7 @@ ul li a {
 }
 
 #navbar ul li a {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
+  background-color: white;
 
 }
