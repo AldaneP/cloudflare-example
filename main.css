@@ -1,6 +1,67 @@
 body {
   margin: 0;
 }
+
+label {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.signup {
+  background-color: rgb(182, 182, 182);
+  justify-content: center;
+  padding-top: 1%;
+  display: grid;
+  grid-template: 45px / 700px;
+}
+
+#click {
+  text-align: center;
+  font-size: 9px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  height: 20px;
+  width: 80px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.more {
+  text-align: center;
+  border-color: rgb(125, 125, 125);
+  display: inline-grid;
+  grid-template: 300px / 300px;
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+}
+
+#first {
+  background-color: rgb(227, 136, 0);
+  border: none;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+  margin: 0;
+}
+
+#second {
+  background-color: purple;
+  border: none;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+}
 .video_setup  h1{
   text-align: center;
   font-size: 40px;
