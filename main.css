@@ -36,10 +36,11 @@ button:hover {
   text-align: center;
   border-color: rgb(125, 125, 125);
   display: inline-grid;
-  grid-template: 300px / 300px;
+  grid-template: 70px / 300px;
   border: 2px;
   border-style: solid;
   border-color: grey;
+  /* padding: 0.1%; */
 }
 
 #first {
@@ -148,7 +149,6 @@ button:hover {
 .small-grid div:nth-child(1){
   text-align: center;
 }
-
 .partner-list{
   text-align: center;
   width:80%;
