@@ -46,3 +46,38 @@ body {
   font-weight: 600;
   border-radius: 5%;
 }
+
+.grid-more-info {
+  display: grid;
+  grid-template: 100px 300px 200px;
+  width: 80%;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.small-grid {
+  display: grid;
+  grid-template: 100% / 50% 50%;
+  margin: 0;
+}
+
+.small-grid div:nth-child(1){
+  text-align: center;
+}
+
+.partner-list{
+  text-align: center;
+  width:80%;
+  padding:40px 10% 40px 10%;
+}
+
+.partner-grid {
+  justify-content: center;
+  padding-top: 20px;
+  display: grid;
+  grid-template: 50% 50% / 10% 10% 10% 10% 10% 10%;
+  grid-gap: 6%;
+}
