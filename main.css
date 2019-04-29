@@ -133,7 +133,9 @@ button:hover {
 .small-grid h3 {
   margin: 0;
 }
-
+.small-grid  label {
+  padding-top: 10px;
+}
 
 .partner-list{
   text-align: center;
