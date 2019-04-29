@@ -1,3 +1,7 @@
+.background{
+  background-color: color: 	#C0C0C0;
+}
+
 body {
   margin: 0;
 }
@@ -159,12 +163,12 @@ button:hover {
 
 .backedBy-list h1{
   color: #fff;
+}
 
 .grid-container{
     display: grid;
   grid-template-: 90px 200px / auto 40px;
 }
-
 #perf {
   margin-top: 5px;
   line-height: 1.4em;
@@ -174,13 +178,26 @@ button:hover {
 .words{
   color: white;
   font-family: sans-serif;
+  margin-top: 5px;
+  line-height: 1.4em;
+  text-align: center;
 }
-  
-.logo {
-  width:130px;
-  display:block;
-  margin:15px;
+
+.grid-item{
+  display: grid;
+  box-sizing: border-box;
+  grid-gap: 5px;
+  color: white;
+  font-weight: 300;
 }
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  }
   
 ul li a {
   display: inline;
