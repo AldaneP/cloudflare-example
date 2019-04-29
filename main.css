@@ -98,4 +98,30 @@ body {
 
 .backedBy-list h1{
   color: #fff;
+
+.grid-container{
+    display: grid;
+  grid-template-: 90px 200px / auto 40px;
+}
+
+#perf {
+  margin-top: 5px;
+  line-height: 1.4em;
+  font-size: 15px;
+}
+
+.words{
+  color: white;
+  font-family: sans-serif;
+}
+  
+.logo {
+  width:130px;
+  display:block;
+  margin:15px;
+}
+  
+ul li a {
+  display: inline;
+  padding: 0 1.5%;
 }
