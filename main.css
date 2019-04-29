@@ -130,6 +130,11 @@ button:hover {
   text-align: center;
 }
 
+.small-grid h3 {
+  margin: 0;
+}
+
+
 .partner-list{
   text-align: center;
   width:80%;
