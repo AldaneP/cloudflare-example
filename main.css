@@ -1,9 +1,15 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 90px 200px auto 40px;
+.grid-container{
+    display: grid;
+  grid-template-: 90px 200px / auto 40px;
 }
 
-.grid__item
-feature p{
+#perf {
   margin-top: 5px;
+  line-height: 1.4em;
+  font-size: 15px;
+}
+
+.words{
+  color: white;
+  font-family: sans-serif;
 }
