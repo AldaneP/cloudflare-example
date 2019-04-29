@@ -1,9 +1,6 @@
 .background{
-  background: linear-gradient;
-  box-sizing: border-box;
-  font-weight: 300;
+  background-color: color: 	#C0C0C0;
 }
-
 #perf {
   margin-top: 5px;
   line-height: 1.4em;
@@ -13,10 +10,23 @@
 .words{
   color: white;
   font-family: sans-serif;
+  margin-top: 5px;
+  line-height: 1.4em;
+  text-align: center;
 }
 
 .grid-item{
   display: grid;
-  grid-template: 200px 200px / 200px 200px;
+  box-sizing: border-box;
   grid-gap: 5px;
+  color: white;
+  font-weight: 300;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
