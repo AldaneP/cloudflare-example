@@ -213,13 +213,16 @@ ul li a {
   margin:15px;
 }
 
-#navbar ul li {
+#navbar{
   background-color: #f2f2f2;
+}
+
+#navbar ul li {
   display: inline;
   padding: 1% 1% 1% 1%;
   width: 100%;
   font-style: sans-serif;
-  
+
 }
 
 #navbar ul li a {
