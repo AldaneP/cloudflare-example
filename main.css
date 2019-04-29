@@ -1,5 +1,9 @@
-element.style{
-  .title_background:
-  background:#ba77b1;
-  background: linear-gradient (to bottom left, #ba77b1, #8176b5)
+.grid-container {
+  display: grid;
+  grid-template-columns: 90px 200px auto 40px;
+}
+
+.grid__item
+feature p{
+  margin-top: 5px;
 }
