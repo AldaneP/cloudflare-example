@@ -1,0 +1,10 @@
+.logo {
+  width:130px;
+  display:block;
+  margin:15px;
+}
+
+ul li a {
+  display: inline;
+  padding: 0 1.5%;
+}
