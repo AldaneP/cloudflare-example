@@ -81,3 +81,21 @@ body {
   grid-template: 50% 50% / 10% 10% 10% 10% 10% 10%;
   grid-gap: 6%;
 }
+
+.backedBy-grid {
+  justify-content: center;
+  padding-top: 20px;
+  display: grid;
+  grid-template: 80px / 15% 15% 15% 15%;
+  grid-gap: 6%;
+}
+
+.backedUp-list {
+  padding: 20px;
+  background-color: #8176b5;
+  text-align: center;
+}
+
+.backedBy-list h1{
+  color: #fff;
+}
