@@ -1,11 +1,5 @@
-element.style {
-  {
-    .marketing-body
-    margin-top: 0;
-    margin-bottom: 300;
-  }
-}
-{
-  box-sizing: border-box;
-  font-weight: 300;
+element.style{
+  .title_background:
+  background:#ba77b1;
+  background: linear-gradient (to bottom left, #ba77b1, #8176b5)
 }
