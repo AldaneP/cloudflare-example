@@ -49,8 +49,7 @@ button:hover {
   text-align: center;
   font-size: 15px;
   height: 30px;
-  width: 100px;
-  margin: 0;
+  width: 130px;
 }
 
 #second {
@@ -62,6 +61,27 @@ button:hover {
   height: 30px;
   width: 100px;
 }
+
+#third {
+  background-color: purple;
+  border: none;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+}
+
+#fourth {
+  background-color: lightblue;
+  border: none;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  width: 130px;
+}
+
 .video_setup  h1{
   text-align: center;
   font-size: 40px;
@@ -184,6 +204,7 @@ button:hover {
   color: white;
   font-family: sans-serif;
 }
+
 .grid-item{
   display: grid;
   box-sizing: border-box;
@@ -207,6 +228,7 @@ p{
   display:block;
   margin:15px;
 }
+
 
 
 ul li a {
