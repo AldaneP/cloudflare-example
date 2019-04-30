@@ -201,6 +201,7 @@ ul li a {
   grid-template: 400px 100px;
   margin: 0;
   width: 100%;
+  background-color: black;
 }
 
 .footerbar-top-section {
