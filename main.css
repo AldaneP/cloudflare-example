@@ -180,10 +180,26 @@ button:hover {
   font-size: 15px;
 }
 
-.words{
+#words{
   color: white;
   font-family: sans-serif;
 }
+.grid-item{
+  display: grid;
+  box-sizing: border-box;
+  grid-gap: 5px;
+  color: white;
+  font-weight: 300;
+  grid-template: 250px 250px / 250px  250px;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  }
 
 .logo {
   width:130px;
