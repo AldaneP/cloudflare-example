@@ -162,7 +162,7 @@ button:hover {
 
 .backedUp-list {
   padding: 20px;
-  background-color: linear-gradient (to left,#76c4e2,#8176b5); 
+  background-color: linear-gradient (to left,#76c4e2,#8176b5);
   text-align: center;
 }
 
@@ -194,4 +194,17 @@ button:hover {
 ul li a {
   display: inline;
   padding: 0 1.5%;
+}
+
+.footerbar {
+  display: grid;
+  grid-template: 400px 100px;
+  margin: 0;
+  width: 100%;
+}
+
+.footerbar-top-section {
+  display: grid;
+  grid-template: 400px / 14% 14% 14% 14% 14% 14%;
+  grid-gap:2%;
 }
