@@ -1,7 +1,3 @@
-.background{
-  background-color: color: 	#C0C0C0;
-}
-
 body {
   margin: 0;
 }
@@ -73,6 +69,7 @@ button:hover {
 
 .video_setup {
   justify-content: center;
+  background-color: white;
 }
 .video_setup video{
 
@@ -133,10 +130,18 @@ button:hover {
   text-align: center;
 }
 
+.small-grid h3 {
+  margin: 0;
+}
+.small-grid  label {
+  padding-top: 10px;
+}
+
 .partner-list{
   text-align: center;
   width:80%;
   padding:40px 10% 40px 10%;
+  background-color: white;
 }
 
 .partner-grid {
@@ -157,18 +162,18 @@ button:hover {
 
 .backedUp-list {
   padding: 20px;
-  background-color: #8176b5;
+  background-color: linear-gradient (to left,#76c4e2,#8176b5);
   text-align: center;
 }
 
 .backedBy-list h1{
   color: #fff;
 }
-
-.grid-container{
-    display: grid;
+.grid-container {
+  display: grid;
   grid-template-: 90px 200px / auto 40px;
 }
+
 #perf {
   margin-top: 5px;
   line-height: 1.4em;
@@ -178,11 +183,7 @@ button:hover {
 #words{
   color: white;
   font-family: sans-serif;
-  margin-top: 5px;
-  line-height: 1.4em;
-  text-align: center;
 }
-
 .grid-item{
   display: grid;
   box-sizing: border-box;
@@ -200,7 +201,41 @@ p{
   margin-inline-end: 0px;
   }
 
+.logo {
+  width:130px;
+  display:block;
+  margin:15px;
+}
+
 ul li a {
   display: inline;
   padding: 0 1.5%;
+}
+
+.footerbar {
+  display: grid;
+  grid-template: 400px 100px;
+  margin: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.footerbar-top-section {
+  display: grid;
+  grid-template: 100% / 14% 14% 14% 14% 14% 14%;
+  grid-gap:2%;
+  text-align: left;
+  justify-content: center;
+  padding: 30px;
+  font-size: 12px;
+}
+.footerbar-top-section a {
+  display: block;
+  color: #a3c7e5;
+  margin: 0;
+}
+.footerbar-top-section h4 {
+  display: block;
+  color: white;
+  margin: 0;
 }
